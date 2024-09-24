@@ -1,0 +1,71 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "%index.title%"
+			}
+		}, {
+			"path": "pages/api/api",
+			"style": {
+				"navigationBarTitleText": "%index.api%",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/vault/index",
+			"style": {
+				"navigationBarTitleText": "%index.vault%",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/send/index",
+			"style": {
+				"navigationBarTitleText": "%index.send%",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/community/index",
+			"style": {
+				"navigationBarTitleText": "%index.community%",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "%index.user%",
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#222222",
+		"selectedColor": "#222222",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"fontSize": "20",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "%index.auction%"
+			},{
+				"pagePath": "pages/vault/index",
+				"text": "%index.vault%"
+			}, 
+			{
+				"pagePath": "pages/send/index",
+				"text": "%index.send%"
+			}, {
+				"pagePath": "pages/community/index",
+				"text": "%index.community%"
+			}, {
+				"pagePath": "pages/user/index",
+				"text": "%index.user%"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#2F85FC",
+		"backgroundColor": "#FFFFFF"
+	}
+}
